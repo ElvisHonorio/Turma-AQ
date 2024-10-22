@@ -10,7 +10,11 @@ section{
     justify-content: center;
 }
 
-head{
+header{
     padding-top: 20%;
     padding-bottom: 20%;
+}
+
+div{
+    margin-right: 20px;
 }
