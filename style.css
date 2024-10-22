@@ -9,3 +9,8 @@ section{
     display: flex;
     justify-content: center;
 }
+
+head{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
