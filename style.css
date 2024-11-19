@@ -1,24 +1,36 @@
 body{
-    color: rgb(0,255,255);
-    background-color: black;
+    background-color: blue;
+    color: white;
+    font-family: "Playfair Display", serif;
 }
+
 section{
-    background: rgba(72, 0, 255, 0.928);
-    padding-top: 80px;
-    padding-bottom: 80px;
+    background: rgb(229, 65, 153);
+    padding-top: 1%;
+    padding-bottom: 1%;
     display: flex;
     justify-content: center;
 }
 
 header{
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.classe_texto{
-    margin-right: 5%;
+.chamada_video{
+    margin-left: 20px;
 }
 
-.video{
-    margin-right: 5%;
+img{
+    height: 200px;
+}
+
+.categorias_videos{
+    display: flex;
+    overflow: auto;
+    gap: 10px;
+}
+.chamada{
+    padding-left: 20px;
+    padding-right: 20px;
 }
